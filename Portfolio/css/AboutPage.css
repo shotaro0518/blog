@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.article__parent__top, .article__parent__center, .article__parent__bottom {
+    display: flex;
+    flex-direction: row;
+    height: 12rem;
+}
+.article__child {
+    overflow: hidden;
+    height: 10rem;
+}
+
+@media (min-width:760px) {
+    main {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        grid-template:
+            "... ...... ...... ...... ..."100px
+            "... top    ...... ...... ..."1fr 
+            "... ...... ...... ...... ..."10px
+            "... ...... ...... center ..."1fr 
+            "... ...... ...... ...... ..."10px
+            "... bottom ...... ...... ..."1fr
+            "... ...... ...... ...... ..."auto
+            /auto 400px 0.2fr 400px auto;
+    }
+    .article__parent__top {
+        grid-area: top;
+    }
+    .article__parent__center {
+        grid-area: center;
+    }
+    .article__parent__bottom {
+        grid-area: bottom;
+    }
+}

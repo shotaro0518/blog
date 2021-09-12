@@ -1,0 +1,113 @@
+/* country */
+.transparent__cover {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+/* イギリス */
+.article__country__1 {
+    background-image:url(../country/UnitedKingdom/ntf_305.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* ベルギー */
+.article__country__2 {
+    background-image:url(../country/Belgium/ntf_330.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* デンマーク */
+.article__country__3 {
+    background-image:url(../country/Denmark/ntf_321.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* イタリア */
+.article__country__4 {
+    background-image:url(../country/Italy/ntf_306.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* ドイツ */
+.article__country__5 {
+    background-image:url(../country/Germany/ntf_322.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* ギリシャ */
+.article__country__6 {
+    background-image:url(../country/Greece/ntf_311.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* フランス */
+.article__country__7 {
+    background-image:url(../country/France/ntf_327.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* オランダ */
+.article__country__8 {
+    background-image:url(../country/Netherlands/ntf_310.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* フィンランド */
+.article__country__9 {
+    background-image:url(../country/Finland/ntf_326.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* スイス */
+.article__country__10 {
+    background-image:url(../country/Switzerland/ntf_314.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* ノルウェー */
+.article__country__11 {
+    background-image:url(../country/Norway/ntf_323.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+/* スウェーデン */
+.article__country__12 {
+    background-image:url(../country/Sweden/ntf_315.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}

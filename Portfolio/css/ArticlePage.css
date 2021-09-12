@@ -1,0 +1,54 @@
+header > menu > .phone__font > a {
+    font-size: 10px;
+}
+/* main flexbox */
+.article__grand__parent {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.article__parent {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+}
+.article__children {
+	width: 100%;
+    height: 90%;
+    border: 1px solid black;
+	overflow: hidden;
+	margin: 4px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+article {
+    background-color: #ffffff;
+}
+@media (min-width:950px) {
+    .article__parent {
+        width: 930px;
+		height: 18rem;
+	}
+	.article__children {
+        margin: 4px 10px;
+        background-color: #ffffff;
+	}
+}
+/* main flexbox */
+
+/* card article */
+.card__article__parent {
+	text-align: center;
+	font-size: 1.2rem;
+	margin:0 0.4rem 0.4em;
+}
+.card__article__children {
+	margin:0.8rem;
+}
+/* card article */
